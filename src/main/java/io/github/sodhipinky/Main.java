@@ -10,13 +10,12 @@ public class Main {
                 "Bhosale Pratik Pratap", "Dinesh Kumar", "Gai Srikanth", "Hanamagouda Goudar",
                 "Harshal Urade", "Hemangi Thombre", "Hemosh Indorkar", "Ishu Bhatia",
                 "Joycee Alfred Nirmal", "Kaif", "Ketki Keni", "Masoom Vali",
-                "Mohd Adnan Parvez Shaikh Mukhtar", "Monica Ragunathan",
+                "Mohd Adnan Parvez ", "Monica Ragunathan",
                 "Mushib Khan", "Naveen Kumar", "Sanket Gongale"};
         System.out.println("There are " + names.length + " names in the list.");
         String luckyWinner = Main.findLuckyWinner(names);
         JOptionPane.showMessageDialog(null, "The Lucky Winner is " + luckyWinner);
     }
-
     public static String findLuckyWinner(String[] names) {
         String luckyWinner;
         Random random = new Random();
